@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="You are invited to Zeyad & Rawan's Engagement - November 7, 2025">
+    <title>Zeyad & Rawan - Engagement Invitation</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Lato:wght@300;400;700&family=Great+Vibes&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- Section 1: The Invitation Reveal -->
+    <section id="invitation-reveal" class="full-screen">
+        <div class="video-background">
+            <!-- Video background will be styled via CSS to show a placeholder -->
+            <div class="video-overlay"></div>
+        </div>
+        
+        <div class="envelope-container">
+            <div class="envelope" id="envelope">
+                <div class="envelope-flap"></div>
+                <div class="envelope-body">
+                    <div class="wax-seal">
+                        <span class="initials">Z&R</span>
+                    </div>
+                </div>
+            </div>
+            <p class="invite-text">You Are Invited</p>
+            <p class="click-text">Click to Open</p>
+            <i class="fas fa-hand-pointer click-icon"></i>
+        </div>
+    </section>
+
+    <!-- Section 2: Main Invitation Card -->
+    <section id="hero-section" class="full-screen hidden">
+        <div class="video-background">
+            <div class="video-overlay"></div>
+        </div>
+        
+        <div class="invitation-card fade-in-sequence">
+            <h1 class="names fade-in-item">Zeyad & Rawan</h1>
+            <p class="engagement-text fade-in-item">are getting engaged</p>
+            <h2 class="save-date fade-in-item">SAVE THE DATE</h2>
+            
+            <div class="scroll-indicator fade-in-item">
+                <p>Scroll Down</p>
+                <i class="fas fa-chevron-down bounce"></i>
+            </div>
+        </div>
+        
+        <!-- Decorative floral elements -->
+        <div class="floral-decoration top-left"></div>
+        <div class="floral-decoration bottom-right"></div>
+    </section>
+
+    <!-- Section 3: Event Details -->
+    <section id="event-details" class="content-section">
+        <div class="container">
+            <div class="details-card scroll-reveal">
+                <p class="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+                
+                <p class="invitation-subtitle">You Are Invited To The Engagement Of</p>
+                
+                <h2 class="couple-names">Zeyad & Rawan</h2>
+                
+                <div class="event-date">
+                    <div class="date-display">
+                        <span class="day-name">FRIDAY</span>
+                        <span class="divider">|</span>
+                        <span class="date-number">7</span>
+                        <span class="month-year">NOVEMBER 2025</span>
+                        <span class="divider">|</span>
+                        <span class="time">AT 07:00 PM</span>
+                    </div>
+                </div>
+                
+                <div class="venue-info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <p class="venue-name">Diva Garden Hall</p>
+                        <p class="venue-location">Talkha City</p>
+                    </div>
+                </div>
+                
+                <!-- Decorative floral corners -->
+                <div class="card-floral top-left-flower"></div>
+                <div class="card-floral bottom-right-flower"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Location & Directions -->
+    <section id="location" class="content-section">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Join Us At</h2>
+            
+            <div class="map-container scroll-reveal">
+                <div id="map" class="map-frame">
+                    <!-- Google Maps Embed - Replace with actual coordinates -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.0!2d31.5!3d31.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDAwJzAwLjAiTiAzMcKwMzAnMDAuMCJF!5e0!3m2!1sen!2seg!4v1234567890"
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                
+                <a href="https://maps.google.com/?q=Diva+Garden+Hall+Talkha+City" 
+                   target="_blank" 
+                   class="directions-btn">
+                    <i class="fas fa-directions"></i>
+                    Get Directions
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Countdown Timer -->
+    <section id="countdown" class="content-section accent-bg">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Counting Down To Forever</h2>
+            
+            <div class="countdown-container scroll-reveal">
+                <div class="countdown-box">
+                    <div class="countdown-number" id="days">00</div>
+                    <div class="countdown-label">DAYS</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="countdown-number" id="hours">00</div>
+                    <div class="countdown-label">HOURS</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="countdown-number" id="minutes">00</div>
+                    <div class="countdown-label">MINUTES</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="countdown-number" id="seconds">00</div>
+                    <div class="countdown-label">SECONDS</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Digital Guestbook -->
+    <section id="guestbook" class="content-section">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Write Us a Message</h2>
+            
+            <div class="guestbook-card scroll-reveal">
+                <div class="canvas-container">
+                    <canvas id="guestbookCanvas"></canvas>
+                </div>
+                
+                <div class="guestbook-controls">
+                    <div class="control-group">
+                        <label>Color:</label>
+                        <div class="color-palette">
+                            <button class="color-btn active" data-color="#000000" style="background: #000000;"></button>
+                            <button class="color-btn" data-color="#FF0000" style="background: #FF0000;"></button>
+                            <button class="color-btn" data-color="#0000FF" style="background: #0000FF;"></button>
+                            <button class="color-btn" data-color="#00AA00" style="background: #00AA00;"></button>
+                            <button class="color-btn" data-color="#FF6B00" style="background: #FF6B00;"></button>
+                            <button class="color-btn" data-color="#B08D57" style="background: #B08D57;"></button>
+                        </div>
+                    </div>
+                    
+                    <div class="control-group">
+                        <label>Pen Width:</label>
+                        <div class="pen-width">
+                            <button class="width-btn active" data-width="2">Thin</button>
+                            <button class="width-btn" data-width="5">Medium</button>
+                            <button class="width-btn" data-width="10">Thick</button>
+                        </div>
+                    </div>
+                    
+                    <div class="control-group full-width">
+                        <input type="text" id="guestName" placeholder="Your Name" class="name-input">
+                    </div>
+                    
+                    <div class="action-buttons">
+                        <button id="undoBtn" class="action-btn secondary">
+                            <i class="fas fa-undo"></i> Undo
+                        </button>
+                        <button id="clearBtn" class="action-btn secondary">
+                            <i class="fas fa-eraser"></i> Clear
+                        </button>
+                        <button id="sendBtn" class="action-btn primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </div>
+                    
+                    <div id="guestbookMessage" class="feedback-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Photo Upload -->
+    <section id="photo-upload" class="content-section accent-bg">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Share Your Photos From The Day</h2>
+            
+            <div class="upload-card scroll-reveal">
+                <div class="qr-code-container">
+                    <div class="qr-code">
+                        <!-- QR Code placeholder - will be generated or replaced with actual QR -->
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="200" height="200" fill="#FDFBF8"/>
+                            <rect x="20" y="20" width="60" height="60" fill="#4E4842"/>
+                            <rect x="120" y="20" width="60" height="60" fill="#4E4842"/>
+                            <rect x="20" y="120" width="60" height="60" fill="#4E4842"/>
+                            <rect x="30" y="30" width="40" height="40" fill="#FDFBF8"/>
+                            <rect x="130" y="30" width="40" height="40" fill="#FDFBF8"/>
+                            <rect x="30" y="130" width="40" height="40" fill="#FDFBF8"/>
+                            <rect x="40" y="40" width="20" height="20" fill="#4E4842"/>
+                            <rect x="140" y="40" width="20" height="20" fill="#4E4842"/>
+                            <rect x="40" y="140" width="20" height="20" fill="#4E4842"/>
+                            <!-- QR pattern elements -->
+                            <rect x="100" y="100" width="10" height="10" fill="#4E4842"/>
+                            <rect x="90" y="110" width="10" height="10" fill="#4E4842"/>
+                            <rect x="110" y="110" width="10" height="10" fill="#4E4842"/>
+                            <rect x="100" y="120" width="10" height="10" fill="#4E4842"/>
+                        </svg>
+                    </div>
+                    <p class="qr-instruction">Scan with your camera to upload photos</p>
+                </div>
+                
+                <div class="upload-divider">
+                    <span>OR</span>
+                </div>
+                
+                <a href="#upload" class="upload-btn" id="uploadBtn">
+                    <i class="fas fa-camera"></i>
+                    Click Here to Upload
+                </a>
+                
+                <p class="upload-note">Share your favorite moments with us!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-names">Zeyad & Rawan</p>
+                <p class="footer-date">November 7, 2025</p>
+                <div class="footer-hearts">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <p class="footer-tagline">Looking forward to celebrating with you</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
